@@ -17,8 +17,8 @@ class Anagram
     binding.pry
     array.each do |item| 
       new_arr = item.split("")
-     if item.split("").sort == @word.split("").sort
-       new_arr << item
+     if new_arr.sort == @word.split("").sort
+       new_arr
       else
         new_arr
       # if new_arr == word_arr 
