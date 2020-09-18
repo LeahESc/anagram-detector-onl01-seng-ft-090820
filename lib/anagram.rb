@@ -20,7 +20,7 @@ class Anagram
      if new_arr.sort == @word.split("").sort
        new_arr
       else
-        new_arr
+        empty_array = []
       # if new_arr == word_arr 
       #   true 
       # else
