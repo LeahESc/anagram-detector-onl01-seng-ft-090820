@@ -14,6 +14,7 @@ class Anagram
     # self.word = @word
     # word_arr = word.split("")
     new_arr = []
+    binding.pry
     array.each do |item| 
      if item.split("").sort == @word.split("").sort
        new_arr << item
