@@ -22,12 +22,5 @@ class Anagram
     return_arr
   end
   end
-     # @word = word
-    # self.word = @word
-    # word_arr = word.split("")
-     # if new_arr == word_arr 
-      #   true 
-      # else
-      #   false
-      # end
+   
     
