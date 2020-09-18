@@ -10,9 +10,6 @@ class Anagram
   # binding.pry
   
   def match(array)
-    # @word = word
-    # self.word = @word
-    # word_arr = word.split("")
     new_arr = []
     # binding.pry
     array.each do |item| 
@@ -30,5 +27,7 @@ class Anagram
     end
   end
   end
-    
+     # @word = word
+    # self.word = @word
+    # word_arr = word.split("")
     
