@@ -11,18 +11,15 @@ class Anagram
   
   def match(array)
     new_arr = []
+    return_arr = []
+    empty_arr = []
     # binding.pry
     array.each do |item| 
       new_arr = item.split("")
      if new_arr.sort == @word.split("").sort
-       new_arr
+       return_arr << item
       else
-        empty_array = []
-      # if new_arr == word_arr 
-      #   true 
-      # else
-      #   false
-      # end
+        empty_arr
       end
     end
   end
@@ -30,4 +27,9 @@ class Anagram
      # @word = word
     # self.word = @word
     # word_arr = word.split("")
+     # if new_arr == word_arr 
+      #   true 
+      # else
+      #   false
+      # end
     
