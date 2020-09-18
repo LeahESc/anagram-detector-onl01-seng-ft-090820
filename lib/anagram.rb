@@ -12,14 +12,11 @@ class Anagram
   def match(array)
     new_arr = []
     return_arr = []
-    empty_arr = []
     # binding.pry
     array.each do |item| 
       new_arr = item.split("")
      if new_arr.sort == @word.split("").sort
        return_arr << item
-      else
-        empty_arr
       end
     end
     return_arr
