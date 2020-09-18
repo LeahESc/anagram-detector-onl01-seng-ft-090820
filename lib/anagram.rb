@@ -7,6 +7,7 @@ class Anagram
   def initialize(word)
     @word = word
   end
+  binding.pry
   
   def match(array)
     word_arr = @word.split("")
