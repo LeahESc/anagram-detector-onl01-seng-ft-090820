@@ -22,6 +22,7 @@ class Anagram
         empty_arr
       end
     end
+    return_arr
   end
   end
      # @word = word
