@@ -11,8 +11,8 @@ class Anagram
   
   def match(array)
     @word = word
-    self.word = word
-    word_arr = word.split("")
+    self.word = @word
+    word_arr = @word.split("")
     array.each do |item| 
       new_arr = item.split("")
       if new_arr == word_arr 
