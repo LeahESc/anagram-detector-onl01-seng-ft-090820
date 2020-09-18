@@ -9,7 +9,7 @@ class Anagram
   end
   binding.pry
   
-  def match(array)
+  def self.match(array)
     word_arr = @word.split("")
     array.each do |item| 
       new_arr = item.split("")
