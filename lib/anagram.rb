@@ -15,7 +15,7 @@ class Anagram
     # word_arr = word.split("")
     new_arr = []
     array.each do |item| 
-     if item.split("").char.sort == @word.split("").char.sort
+     if item.split("").sort == @word.split("").sort
        new_arr << item
       else
         new_arr
