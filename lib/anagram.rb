@@ -13,9 +13,9 @@ class Anagram
     # @word = word
     # self.word = @word
     # word_arr = word.split("")
+    new_arr = []
     array.each do |item| 
      if item.split("").char.sort == @word.split("").char.sort
-       new_arr = []
        new_arr << item
       else
         new_arr
