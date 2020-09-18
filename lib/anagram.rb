@@ -10,16 +10,16 @@ class Anagram
    binding.pry
   
   def match(array)
-    @word = word
-    self.word = @word
-    word_arr = @word.split("")
+    # @word = word
+    # self.word = @word
+    # word_arr = word.split("")
     array.each do |item| 
       new_arr = item.split("")
-      if new_arr == word_arr 
-        true 
-      else
-        false
-      end
+      # if new_arr == word_arr 
+      #   true 
+      # else
+      #   false
+      # end
     end
   end
   end
