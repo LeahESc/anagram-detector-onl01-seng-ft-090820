@@ -7,10 +7,10 @@ class Anagram
   def initialize(word)
     @word = word
   end
-  binding.pry
+  # binding.pry
   
-  def self.match(array)
-    word_arr = @word.split("")
+  def match(array)
+    word_arr = self.split("")
     array.each do |item| 
       new_arr = item.split("")
       if new_arr == word_arr 
